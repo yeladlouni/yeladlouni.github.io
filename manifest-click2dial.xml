@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Click2Dial"/>
   <Description DefaultValue="[Outlook Add-in description]"/>
-  <IconUrl DefaultValue="https://localhost:8443/images/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:8443/images/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://yeladlouni.github.io/images/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://yeladlouni.github.io/images/hi-res-icon.png"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -19,13 +19,13 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:8443/appread/home/home.html"/>
+        <SourceLocation DefaultValue="https://yeladlouni.github.io/appread/home/home.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:8443/appcompose/home/home.html"/>
+        <SourceLocation DefaultValue="https://yeladlouni.github.io/appcompose/home/home.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -231,14 +231,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="icon-16" DefaultValue="https://localhost:8443/images/icon-16.png"/>
-        <bt:Image id="icon-32" DefaultValue="https://localhost:8443/images/icon-32.png"/>
-        <bt:Image id="icon-80" DefaultValue="https://localhost:8443/images/icon-80.png"/>
+        <bt:Image id="icon-16" DefaultValue="https://yeladlouni.github.io/images/icon-16.png"/>
+        <bt:Image id="icon-32" DefaultValue="https://yeladlouni.github.io/images/icon-32.png"/>
+        <bt:Image id="icon-80" DefaultValue="https://yeladlouni.github.io/images/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="customPaneUrl" DefaultValue="https://localhost:8443/CustomPane/CustomPane.html"/>
-        <bt:Url id="funcFile" DefaultValue="https://localhost:8443/FunctionFile/Functions.html"/>
-        <bt:Url id="readPaneUrl" DefaultValue="https://localhost:8443/appread/home/home.html"/>
+        <bt:Url id="customPaneUrl" DefaultValue="https://yeladlouni.github.io/CustomPane/CustomPane.html"/>
+        <bt:Url id="funcFile" DefaultValue="https://yeladlouni.github.io/FunctionFile/Functions.html"/>
+        <bt:Url id="readPaneUrl" DefaultValue="https://yeladlouni.github.io/appread/home/home.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Sample Add-in"/>
