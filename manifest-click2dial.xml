@@ -2,12 +2,12 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MailApp" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0">
   <Id>4d1259e3-3b99-4f1e-a71c-c767a145ee7c</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>[Provider name]</ProviderName>
+  <ProviderName>Ark Telecom</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Click2Dial"/>
-  <Description DefaultValue="[Outlook Add-in description]"/>
-  <IconUrl DefaultValue="https://yeladlouni.github.io/images/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://yeladlouni.github.io/images/hi-res-icon.png"/>
+  <Description DefaultValue="[Outlook Click to Dial Addin]"/>
+  <IconUrl DefaultValue="https://yeladlouni.github.io/images/phone-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://yeladlouni.github.io/images/hi-res-phone.png"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -231,9 +231,9 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="icon-16" DefaultValue="https://yeladlouni.github.io/images/icon-16.png"/>
-        <bt:Image id="icon-32" DefaultValue="https://yeladlouni.github.io/images/icon-32.png"/>
-        <bt:Image id="icon-80" DefaultValue="https://yeladlouni.github.io/images/icon-80.png"/>
+        <bt:Image id="icon-16" DefaultValue="https://yeladlouni.github.io/images/phone-16.png"/>
+        <bt:Image id="icon-32" DefaultValue="https://yeladlouni.github.io/images/phone-32.png"/>
+        <bt:Image id="icon-80" DefaultValue="https://yeladlouni.github.io/images/phone-96.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="customPaneUrl" DefaultValue="https://yeladlouni.github.io/CustomPane/CustomPane.html"/>
