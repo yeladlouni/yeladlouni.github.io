@@ -18,6 +18,7 @@
   <script src="../../Dropdown/Jquery.Dropdown.js"></script>
   <script src="../../ListItem/Jquery.ListItem.js"></script>
   
+  
   <link href="home.css" rel="stylesheet" type="text/css" />
   <script src="home.js" type="text/javascript"></script>
   
@@ -55,7 +56,7 @@
         <ul class="ms-Pivot">
           <li class="ms-Pivot-link">All contacts</li>
           <li class="ms-Pivot-link is-selected ms-Pivot-link--overflow">
-            <i class="ms-Pivot-ellipsis ms-Icon ms-Icon--Settings"></i>
+            <i class="ms-Icon ms-Icon--Mail"></i>
           </li>
           <li class="ms-Pivot-link ms-Pivot-link--overflow">
             <i class="ms-Pivot-ellipsis ms-Icon ms-Icon--ellipsis"></i>
@@ -75,54 +76,59 @@
           </div>
       </div>
       
-      <ul class="ms-List">
-          <div class="ms-ListItem is-selected is-selectable">
-            <span class="ms-ListItem-primaryText">Contact Name 1</span>
-            <span class="ms-ListItem-secondaryText">Contact Address 1</span>
-            <span class="ms-ListItem-tertiaryText">Contact Phone Number 1</span>
-            <span class="ms-ListItem-metaText">2015</span>
-            <div class="ms-ListItem-selectionTarget js-toggleSelection"></div>
-            <div class="ms-ListItem-actions">
-            </div>
+      <form class="Form">
+          <div class="ms-TextField ms-TextField--placeholder is-required ">
+            <label class="ms-Label">License</label>
+            <input class="ms-TextField-field" type="text">
           </div>
+
+          <div class="ms-TextField ms-TextField--placeholder is-required">
+            <label class="ms-Label">Tenant ID</label>
+            <input class="ms-TextField-field" type="text">
+          </div>
+
+          <div class="ms-TextField ms-TextField--placeholder is-required">
+            <label class="ms-Label">Username</label>
+            <input class="ms-TextField-field" type="text">
+          </div>
+
+          <div class="ms-TextField ms-TextField--placeholder is-required">
+            <label class="ms-Label">Password</label>
+            <input class="ms-TextField-field" type="password">
+          </div>
+
+          <div class="ms-Dropdown" tabindex="0">
+            <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--caretDown"></i>
+            <select class="ms-Dropdown-select">
+              <option>Choose a sound&hellip;</option>
+              <option>Dog barking</option>
+              <option>Wind blowing</option>
+              <option>Duck quacking</option>
+              <option>Cow mooing</option>
+            </select>
+          </div>
+
           
-          <div class="ms-ListItem is-selected is-selectable">
-            <span class="ms-ListItem-primaryText">Contact Name 2</span>
-            <span class="ms-ListItem-secondaryText">Contact Address 2</span>
-            <span class="ms-ListItem-tertiaryText">Contact Phone Number 2</span>
-            <span class="ms-ListItem-metaText">2013</span>
-            <div class="ms-ListItem-selectionTarget js-toggleSelection"></div>
-            <div class="ms-ListItem-actions">
-            </div>
+          <div class="ms-TextField ms-TextField--placeholder is-required">
+            <label class="ms-Label">Call to</label>
+            <input class="ms-TextField-field" type="tel">
           </div>
-          
-          <div class="ms-ListItem is-selectable">
-            <span class="ms-ListItem-primaryText">Contact Name 3</span>
-            <span class="ms-ListItem-secondaryText">Contact Address 3</span>
-            <span class="ms-ListItem-tertiaryText">Contact Phone Number 3</span>
-            <span class="ms-ListItem-metaText">2012</span>
-            <div class="ms-ListItem-selectionTarget js-toggleSelection"></div>
-            <div class="ms-ListItem-actions">
-            </div>
-          </div>
-                    
-          <div class="ms-ListItem is-selectable">
-            <span class="ms-ListItem-primaryText">Contact Name 4</span>
-            <span class="ms-ListItem-secondaryText">Contact Address 4</span>
-            <span class="ms-ListItem-tertiaryText">Contact Phone Number 4</span>
-            <span class="ms-ListItem-metaText">2010</span>
-            <div class="ms-ListItem-selectionTarget js-toggleSelection"></div>
-            <div class="ms-ListItem-actions">
-            </div>
-          </div>        
-      </ul>
       
-      <br />
       <center>
           <button class="ms-Button" id="set-data">
               <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
-              <span class="ms-Button-label">Insert Reference</span>
-              <span class="ms-Button-description">Insert Reference into document</span>
+              <span class="ms-Button-label">Save</span>
+              <span class="ms-Button-description">Save settings</span>
+          </button>
+          <button class="ms-Button" id="set-data">
+              <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+              <span class="ms-Button-label">Cancel</span>
+              <span class="ms-Button-description">Cancel settings</span>
+          </button>
+          <button class="ms-Button" id="set-data">
+              <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+              <span class="ms-Button-label">Help</span>
+              <span class="ms-Button-description">Show help</span>
           </button>
       </center>
       
